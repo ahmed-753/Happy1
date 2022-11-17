@@ -1,0 +1,397 @@
+    //____section happy________
+.happy{
+  background-color:#E5E5E5;
+&__info{
+
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  padding-top:100px;
+  z-index:2;
+
+}
+
+  &__img{
+
+
+  }
+  &__title{
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 59px;
+
+  }
+  &__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin:15px 0;
+  }
+  &__btn{
+    background-color:black;
+    transition:0.7s;
+
+    &:hover{
+      color:grey;
+      background-color:black;
+      transition:0.5s;
+      margin:10px 5px 0px  5px;
+
+    }
+
+  }
+  &__images{
+    position:relative;
+    top:205px;
+    z-index:1;
+
+
+  }
+
+
+}
+
+    //_________feature section____________
+
+    .features{
+      position: relative;
+      z-index: 100;
+
+
+      &__infos{
+        background-color:black;
+        padding-top:85px;
+
+      }
+
+
+
+
+      &__text{
+
+        color:white;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 2px;
+      }
+
+      &__blue{
+        color:white;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 36px;
+        text-align: center;
+      }
+
+      &__box{
+        background-color:white;
+        border-radius: 20px;
+        height: 490px;
+        width:379px;
+        text-align:center;
+
+      }
+
+      &__img{
+        width:227px;
+      }
+
+      &__info{
+        background-color:#E5E5E5;
+      }
+
+
+
+    }
+
+    //____price_________
+
+    .prices{
+      background-color:#FF5437;
+
+      &__reds{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+
+      }
+
+      &__red{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        margin:70px;
+
+      }
+
+      &__price{
+        font-weight: 400;
+        font-size: 96px;
+        line-height: 96px;
+        color:white;
+
+        &:hover{
+          font-size:100px;
+          transition:0.5s;
+
+        }
+      }
+
+      &__text{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        color:white;
+      }
+
+
+    }
+
+
+    //______speed_____________
+
+    .speed{
+      background-color:#F2F2F2;
+      padding: 124px 0  0 ;
+
+      &__box{
+        display:flex;
+        align-items:center;
+        justify-content:space-around;
+
+      }
+
+      &__text{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        margin-bottom:5px;
+      }
+
+      &__mein-text{
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 36px;
+        margin-bottom: 10px;
+
+      }
+
+
+      &__familiarization{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+      }
+
+
+    }
+
+    //_______Pricing_______
+
+    .pricing{
+      background-color:#E5E5E5;
+
+      &__texts{
+        text-align:center;
+
+      }
+
+      &__title{
+        padding-top:100px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        margin-bottom:5px;
+      }
+      &__mein{
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 36px;
+        margin-bottom:15px;
+      }
+
+      &__info{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+      }
+
+
+     &__boxs{
+       display:flex;
+       justify-content:center;
+       gap:20px;
+       align-items:center;
+       background-color:#E5E5E5;
+       padding:41px 0px 90px 0px;
+     }
+
+      &__box{
+        height:338px;
+        width:337px;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+      }
+
+      &__blue-text{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        color: #0278ED;
+
+      }
+
+      &__blue-price{
+        font-weight: 400;
+        font-size: 108px;
+        line-height: 124px;
+        color: #0278ED;
+
+        &:hover{
+          font-size:110px;
+        }
+      }
+
+      &__text{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+
+      }
+
+      &__blue{
+        margin-top:20px;
+        background-color:#0278ED;
+        border:1px solid #0278ED ;
+
+        &:hover{
+          transition:0.7s;
+          margin-top:10px;
+        }
+
+      }
+
+      &__orange-text{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        color: #FF5437;
+
+      }
+
+      &__orange-price{
+        font-weight: 400;
+        font-size: 108px;
+        line-height: 124px;
+        color: #FF5437;
+
+        &:hover{
+          font-size:110px;
+        }
+      }
+
+      &__orange{
+        margin-top:20px;
+        background-color:#FF5437;
+        border:1px solid #FF5437 ;
+
+        &:hover{
+          transition:0.7s;
+          margin-top:10px;
+        }
+
+      }
+
+      &__yellow-text{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        color: #FF9209;
+
+
+      }
+
+      &__yellow-price{
+        font-weight: 400;
+        font-size: 108px;
+        line-height: 124px;
+        color:  #FF9209;
+
+        &:hover{
+          font-size:110px;
+        }
+
+      }
+
+      &__yellow{
+        margin-top:20px;
+        background-color:#FF9209;
+        border:1px solid #FF9209 ;
+
+        &:hover{
+          transition:0.7s;
+          margin-top:10px;
+        }
+
+      }
+
+    }
+
+
+    //________Download________
+
+
+    .download{
+      background-color:#E5E5E5;
+
+      &__boxs{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        padding:100px 0;
+
+
+      }
+
+      &__text{
+        text-align:center;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        margin-bottom:5px;
+      }
+
+      &__mein{
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 36px;
+        margin-bottom:14px;
+        text-align:center;
+      }
+
+      &__info{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom:20px;
+        text-align:center;
+      }
+
+      &__link{
+        margin-left:35%;
+        cursor:grabbing;
+      }
+    }
+

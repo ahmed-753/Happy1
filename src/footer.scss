@@ -1,0 +1,33 @@
+
+//_________information_______
+
+
+.information{
+
+  &__boxs{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    padding:100px 0;
+    gap:20px;
+  }
+
+  &__logo{
+    margin-right:20px;
+  }
+
+  &__texts{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #666666;
+  }
+
+  &__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+  }
+}
