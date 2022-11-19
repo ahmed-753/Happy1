@@ -27,8 +27,8 @@ button{
 }
 .header{
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15);
-  &__info{
 
+  &__info{
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -58,6 +58,7 @@ button{
       transition:0.7s;
 
       &:hover{
+        font-size:17px;
         cursor:grabbing;
         color: black;
         transition:0.5s;
@@ -80,7 +81,8 @@ button{
         color:grey;
         background-color:black;
         transition:0.7s;
-        margin-bottom:10px;
+        transform: translateY(-5px);
+
       }
     }
 

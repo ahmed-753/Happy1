@@ -1,20 +1,14 @@
     //____section happy________
 .happy{
   background-color:#E5E5E5;
-&__info{
 
+
+&__info{
   display:flex;
   justify-content:space-around;
   align-items:center;
-  padding-top:100px;
-  z-index:2;
-
 }
 
-  &__img{
-
-
-  }
   &__title{
     font-weight: 400;
     font-size: 54px;
@@ -35,7 +29,7 @@
       color:grey;
       background-color:black;
       transition:0.5s;
-      margin:10px 5px 0px  5px;
+      padding:12px 27px;
 
     }
 
@@ -43,7 +37,7 @@
   &__images{
     position:relative;
     top:205px;
-    z-index:1;
+
 
 
   }
@@ -51,24 +45,19 @@
 
 }
 
-    //_________feature section____________
+    //_________feature____________
 
     .features{
       position: relative;
-      z-index: 100;
-
+      z-index:1;
+      background-color:black;
 
       &__infos{
-        background-color:black;
-        padding-top:85px;
+        padding:200px;
 
       }
 
-
-
-
-      &__text{
-
+      &__texts{
         color:white;
         font-weight: 400;
         font-size: 14px;
@@ -83,23 +72,110 @@
         font-size: 32px;
         line-height: 36px;
         text-align: center;
+        margin-bottom:41px;
       }
 
       &__box{
         background-color:white;
-        border-radius: 20px;
-        height: 490px;
-        width:379px;
+        border-radius:20px;
+        height:490px;
+        width:calc(33.33333% - 11px);
         text-align:center;
+        position: relative;
+        display: flex;
+        align-items: end;
+      }
+
+      &__row{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 16px;
+
 
       }
 
       &__img{
-        width:227px;
+      position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+
+      &__Calendar{
+        position:absolute;
+        top: -20px;
+      }
+
+      &__blue-mein{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        color: #0278ED;
+        margin-top:68px;
+
+      }
+
+      &__orange-mein{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        color:#FF5437;
+        margin-top:68px;
+
+      }
+
+      &__yellow-mein{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        color:#FF9209;
+        margin-top:68px;
+
+      }
+
+      &__pink-mein{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        color:#E738CE;
+        margin-top:68px;
+      }
+
+      &__cyan-mein{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        color:#00C6DF;
+        margin-top:68px;
+      }
+
+      &__purple-mein{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        color:#B25DF8;
+        margin-top:68px;
+      }
+
+      &__text{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        margin-top:12px;
       }
 
       &__info{
         background-color:#E5E5E5;
+        padding-bottom:30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        position: relative;
+        border-radius: 0px 0px 20px 20px;
+        z-index:2;
       }
 
 
@@ -156,11 +232,15 @@
     .speed{
       background-color:#F2F2F2;
       padding: 124px 0  0 ;
+      &__img{
 
+
+      }
       &__box{
         display:flex;
         align-items:center;
         justify-content:space-around;
+        position: relative;
 
       }
 
@@ -240,6 +320,13 @@
         flex-direction:column;
         align-items:center;
         justify-content:center;
+        transition: 1s;
+
+        &:hover{
+          background-color:white;
+          transform: translateY(-5px);
+          transition: 1s;
+        }
       }
 
       &__blue-text{
@@ -392,6 +479,6 @@
       &__link{
         margin-left:35%;
         cursor:grabbing;
-      }
+        }
     }
 
