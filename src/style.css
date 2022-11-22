@@ -176,6 +176,37 @@
   color: white;
 }
 
+.technology {
+  background-color: white;
+}
+.technology__img {
+  position: relative;
+  top: 140px;
+}
+.technology__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+.technology__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.technology__mein-text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+.technology__familiarization {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
 .speed {
   background-color: #F2F2F2;
   padding: 124px 0 0;
@@ -367,6 +398,7 @@
 }
 .download__link {
   margin-left: 35%;
+  cursor: -webkit-grabbing;
   cursor: grabbing;
 }
 
@@ -445,6 +477,7 @@ button {
 }
 .header__link:hover {
   font-size: 17px;
+  cursor: -webkit-grabbing;
   cursor: grabbing;
   color: black;
   transition: 0.5s;
@@ -460,6 +493,4 @@ button {
   background-color: black;
   transition: 0.7s;
   transform: translateY(-5px);
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
